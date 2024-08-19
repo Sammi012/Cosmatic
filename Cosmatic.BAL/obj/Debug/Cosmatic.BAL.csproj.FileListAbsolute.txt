@@ -1,0 +1,6 @@
+C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic.BAL\bin\Debug\Cosmatic.BAL.dll
+C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic.BAL\bin\Debug\Cosmatic.BAL.pdb
+C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic.BAL\obj\Debug\Cosmatic.BAL.csproj.AssemblyReference.cache
+C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic.BAL\obj\Debug\Cosmatic.BAL.csproj.CoreCompileInputs.cache
+C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic.BAL\obj\Debug\Cosmatic.BAL.dll
+C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic.BAL\obj\Debug\Cosmatic.BAL.pdb
