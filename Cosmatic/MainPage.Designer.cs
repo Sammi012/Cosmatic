@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.dashboardMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.userManagementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,19 +62,17 @@
             this.securityAndAuditToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.backupAndRecoveryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolUserName = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.shortCutToolMenu = new System.Windows.Forms.ToolStrip();
+            this.tsSale = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsPayment = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.tsPurchase = new System.Windows.Forms.ToolStripButton();
             this.menuStrip.SuspendLayout();
-            this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
+            this.shortCutToolMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip
@@ -95,7 +92,6 @@
             this.menuStrip.Size = new System.Drawing.Size(1151, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
-            this.menuStrip.Visible = false;
             // 
             // dashboardMenu
             // 
@@ -336,69 +332,11 @@
             this.backupAndRecoveryToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.backupAndRecoveryToolStripMenuItem.Text = "&Backup and Recovery";
             // 
-            // toolStrip
-            // 
-            this.toolStrip.Dock = System.Windows.Forms.DockStyle.Right;
-            this.toolStrip.ImageScalingSize = new System.Drawing.Size(32, 32);
-            this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton1,
-            this.toolStripButton4,
-            this.toolStripSeparator1,
-            this.toolStripButton3,
-            this.toolStripButton2});
-            this.toolStrip.Location = new System.Drawing.Point(1038, 0);
-            this.toolStrip.Name = "toolStrip";
-            this.toolStrip.Size = new System.Drawing.Size(113, 593);
-            this.toolStrip.TabIndex = 1;
-            this.toolStrip.Text = "ToolStrip";
-            this.toolStrip.Visible = false;
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Image = global::Cosmatic.Properties.Resources.sale_tag;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(110, 51);
-            this.toolStripButton1.Text = "New Sale";
-            this.toolStripButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.Image = global::Cosmatic.Properties.Resources.coins;
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(110, 51);
-            this.toolStripButton4.Text = "Sale Payment";
-            this.toolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(110, 6);
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.Image = global::Cosmatic.Properties.Resources.buy_button;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(110, 51);
-            this.toolStripButton3.Text = "New Purchase";
-            this.toolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.Image = global::Cosmatic.Properties.Resources.secure_payment;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(110, 51);
-            this.toolStripButton2.Text = "Purchase  Payment";
-            this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolUserName});
-            this.statusStrip.Location = new System.Drawing.Point(0, 429);
+            this.statusStrip.Location = new System.Drawing.Point(0, 571);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Size = new System.Drawing.Size(1151, 22);
             this.statusStrip.TabIndex = 2;
@@ -411,25 +349,71 @@
             this.toolUserName.Size = new System.Drawing.Size(59, 17);
             this.toolUserName.Text = "username";
             // 
-            // panel1
+            // shortCutToolMenu
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1151, 593);
-            this.panel1.TabIndex = 4;
+            this.shortCutToolMenu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.shortCutToolMenu.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.shortCutToolMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsSale,
+            this.toolStripSeparator2,
+            this.tsPayment,
+            this.toolStripSeparator3,
+            this.tsPurchase});
+            this.shortCutToolMenu.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
+            this.shortCutToolMenu.Location = new System.Drawing.Point(0, 24);
+            this.shortCutToolMenu.Name = "shortCutToolMenu";
+            this.shortCutToolMenu.Size = new System.Drawing.Size(1151, 54);
+            this.shortCutToolMenu.TabIndex = 4;
+            this.shortCutToolMenu.Text = "shortCutToolMenu";
+            // 
+            // tsSale
+            // 
+            this.tsSale.Image = global::Cosmatic.Properties.Resources.sale_tag;
+            this.tsSale.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsSale.Name = "tsSale";
+            this.tsSale.Size = new System.Drawing.Size(59, 51);
+            this.tsSale.Text = "&New Sale";
+            this.tsSale.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 54);
+            // 
+            // tsPayment
+            // 
+            this.tsPayment.Image = global::Cosmatic.Properties.Resources.coins;
+            this.tsPayment.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsPayment.Name = "tsPayment";
+            this.tsPayment.Size = new System.Drawing.Size(63, 51);
+            this.tsPayment.Text = "&Payments";
+            this.tsPayment.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
+            this.tsPayment.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsPayment.ToolTipText = "Payments";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 54);
+            // 
+            // tsPurchase
+            // 
+            this.tsPurchase.Image = global::Cosmatic.Properties.Resources.buy_button;
+            this.tsPurchase.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsPurchase.Name = "tsPurchase";
+            this.tsPurchase.Size = new System.Drawing.Size(59, 51);
+            this.tsPurchase.Text = "&Purchase";
+            this.tsPurchase.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tsPurchase.ToolTipText = "Purchase";
             // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Cosmatic.Properties.Resources.abstract_blue_wavy_background_88343_1162;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1151, 593);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.shortCutToolMenu);
             this.Controls.Add(this.menuStrip);
-            this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.statusStrip);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
@@ -440,10 +424,10 @@
             this.Load += new System.EventHandler(this.MainPage_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
-            this.toolStrip.ResumeLayout(false);
-            this.toolStrip.PerformLayout();
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
+            this.shortCutToolMenu.ResumeLayout(false);
+            this.shortCutToolMenu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -452,7 +436,6 @@
 
 
         private System.Windows.Forms.MenuStrip menuStrip;
-        private System.Windows.Forms.ToolStrip toolStrip;
         private System.Windows.Forms.StatusStrip statusStrip;
         private System.Windows.Forms.ToolStripStatusLabel toolUserName;
         private System.Windows.Forms.ToolStripMenuItem tileHorizontalToolStripMenuItem;
@@ -464,7 +447,6 @@
         private System.Windows.Forms.ToolStripMenuItem tileVerticalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem closeAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem arrangeIconsToolStripMenuItem;
-        private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.ToolStripMenuItem userManagementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem userToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem roleToolStripMenuItem;
@@ -489,12 +471,12 @@
         private System.Windows.Forms.ToolStripMenuItem trailsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem backupAndRecoveryToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dashboardMenu;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
-        private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton4;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ToolStrip shortCutToolMenu;
+        private System.Windows.Forms.ToolStripButton tsSale;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripButton tsPayment;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripButton tsPurchase;
     }
 }
 

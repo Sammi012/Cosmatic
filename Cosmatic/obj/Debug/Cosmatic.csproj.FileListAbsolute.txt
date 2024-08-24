@@ -1,30 +1,18 @@
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\bin\Debug\Cosmatic.exe.config
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\bin\Debug\Cosmatic.exe
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\bin\Debug\Cosmatic.pdb
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\obj\Debug\Cosmatic.csproj.AssemblyReference.cache
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\obj\Debug\Cosmatic.Properties.Resources.resources
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\obj\Debug\Cosmatic.csproj.GenerateResource.cache
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\obj\Debug\Cosmatic.csproj.CoreCompileInputs.cache
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\obj\Debug\Cosmatic.exe
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\obj\Debug\Cosmatic.pdb
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\obj\Debug\Cosmatic.frmLogin.resources
-C:\Users\Sami Ullah\source\repos\Cosmatic\Cosmatic\obj\Debug\Cosmatic.MainPage.resources
-E:\Projects\Cosmatic\Cosmatic\bin\Debug\Cosmatic.exe.config
-E:\Projects\Cosmatic\Cosmatic\bin\Debug\Cosmatic.exe
-E:\Projects\Cosmatic\Cosmatic\bin\Debug\Cosmatic.pdb
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.csproj.AssemblyReference.cache
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.frmLogin.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.MainPage.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.Properties.Resources.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.csproj.GenerateResource.cache
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.csproj.CoreCompileInputs.cache
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.exe
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.pdb
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.FrmCustomers.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.UC_Transactions.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.UC_Profiles.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.UC_Receipts.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.UC_Returns.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.usrActionBar.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserManagement.Authentication.resources
-E:\Projects\Cosmatic\Cosmatic\obj\Debug\Cosmatic.Dashboard.frmDashboard.resources
+E:\Private_Project\Cosmatic\Cosmatic\bin\Debug\Cosmatic.exe.config
+E:\Private_Project\Cosmatic\Cosmatic\bin\Debug\Cosmatic.exe
+E:\Private_Project\Cosmatic\Cosmatic\bin\Debug\Cosmatic.pdb
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.csproj.AssemblyReference.cache
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.Dashboard.frmDashboard.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.frmLogin.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.MainPage.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.Properties.Resources.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.UC_Profiles.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.UC_Receipts.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.UC_Returns.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.UC_Transactions.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserControls.usrActionBar.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.UserManagement.Authentication.resources
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.csproj.GenerateResource.cache
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.csproj.CoreCompileInputs.cache
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.exe
+E:\Private_Project\Cosmatic\Cosmatic\obj\Debug\Cosmatic.pdb
